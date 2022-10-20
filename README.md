@@ -19,8 +19,8 @@ This repo is official code for NeurIPS 2022 paper ["Descent Steps of a Relation-
 ### Downloading dataset
 ------
 - Knowledge graphs: Downloaded from dgl.data.rdf
-- HGB datasets: Pre-defined class "HGBDataset" try to download the datasets
-- Academic datset: Pre-defined class "AcademicDataset" try to download the datasets
+- HGB datasets: Pre-defined class "HGBDataset" tries to download the datasets
+- Academic datset: Pre-defined class "AcademicDataset" tries to download the datasets
 
 All the datasets are automatically downloaded if you run one of the following command. 
 
