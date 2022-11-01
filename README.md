@@ -35,7 +35,7 @@ All the datasets are automatically downloaded if you run one of the following co
 $ python main.py --date NeurIPS2022 --seed 0 --mlp_bef=1 --mlp_aft=1 --prop_step=16 --num_epoch=1000 --lam=1.0 --alp=0.1 --dropout 0.5 --inp_dropout 0.5 --learn_emb=16 --hidden_size=16 --lr 0.001 --weight_decay 1e-05 --data=AIFB
 
 # MUTAG
-$ python main.py --date NeurIPS2022 --seed 0 --mlp_bef=1 --mlp_aft=1 --prop_step=16 --num_epoch=1000 --lam=0.01 --alp=1.0 --dropout 0.5 --inp_dropout 0.5 --learn_emb=16 --hidden_size=16 --lr 0.001 --weight_decay 0.0001 --data=MUTAG
+$ python main.py --date NeurIPS2022 --seed 0 --mlp_bef=1 --mlp_aft=1 --prop_step=16 --num_epoch=1000 --lam=0.01 --alp=1.0 --dropout 0.5 --inp_dropout 0.5 --learn_emb=16 --hidden_size=16 --lr 0.001 --weight_decay 0.0001 --multilabel --data=MUTAG
 
 # BGS
 $ python main.py --date NeurIPS2022 --seed 0 --mlp_bef=1 --mlp_aft=1 --prop_step=8 --num_epoch=1000 --lam=0.1 --alp=1.0 --dropout 0.5 --inp_dropout 0.5 --learn_emb=16 --hidden_size=16 --lr 0.01 --weight_decay 1e-05 --data=BGS
