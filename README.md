@@ -24,6 +24,12 @@ This repo is official code for NeurIPS 2022 paper ["Descent Steps of a Relation-
 
 All the datasets are automatically downloaded if you run one of the following command. 
 
+**Note**
+
+Since it is not available to get labels of test nodes in HGB dataset, we instead evaluate our methods using validation set. All the evaluation procedures are implemented in our repo.
+
+For more details on the HGB dataset, please refer to this [Link](https://github.com/THUDM/HGB)
+
 ------
 ### Reproducing Table 1
 ------
